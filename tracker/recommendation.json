@@ -1,0 +1,77 @@
+{
+    "menstrual": {
+        "foodsToEat": [
+            "Turmeric milk (Haldi Doodh)",
+            "Ginger tea (Adrak Chai)",
+            "Khichdi",
+            "Palak  curry",
+            "Moong dal (mung bean soup)",
+            "Roti with ghee",
+            "Bananas",
+            "Oats porridge"
+        ],
+        "foodsToAvoid": [
+            "Pakoras",
+            "Samosas",
+            "Chocolates and sugary treats",
+            "Caffeine",
+            "Heavy, spicy curries",
+            "Processed foods"
+        ],
+        "exercises": [
+            "Gentle yoga (like Supta Baddha Konasana)",
+            "Walking",
+            "Stretching exercises",
+            "Deep breathing exercises (Pranayama)"
+        ]
+    },
+    "ovulation": {
+        "foodsToEat": [
+            "Chia seeds",
+            "Lentil soups (Dal)",
+            "Fresh fruits (mangoes, apples)",
+            "Nuts (almonds, cashews)",
+            "Yogurt with honey",
+            "Vegetable stir-fry",
+            "Paneer dishes"
+        ],
+        "foodsToAvoid": [
+            "High-fat foods",
+            "Excessive sugars",
+            "Deep-fried snacks",
+            "Alcohol",
+            "Excessive caffeine"
+        ],
+        "exercises": [
+            "Cardio workouts (running, brisk walking)",
+            "Strength training",
+            "High-intensity interval training (HIIT)",
+            "Dance workouts"
+        ]
+    },
+    "luteal": {
+        "foodsToEat": [
+            "Complex carbs (brown rice, quinoa)",
+            "Lean proteins (chicken, tofu)",
+            "Dark chocolate",
+            "Mixed nuts and seeds",
+            "Fruits (oranges, pomegranates)",
+            "Green tea",
+            "Legumes (chana, rajma)",
+            "Tofu and paneer"
+        ],
+        "foodsToAvoid": [
+            "Refined carbs (white bread, pastries)",
+            "Excessive salt",
+            "Sugary drinks",
+            "Heavy, greasy foods",
+            "Caffeine"
+        ],
+        "exercises": [
+            "Moderate cardio (cycling, brisk walking)",
+            "Pilates",
+            "Strength training",
+            "Low-impact aerobics"
+        ]
+    }
+}
