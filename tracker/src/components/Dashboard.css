@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Montserrat+Alternates&family=Montserrat:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap');
+
+body {
+    background-color: #ede1e6;
+    font-family: 'Montserrat';
+}
+
+.logo {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 100;
+    color: #a53658;
+    text-shadow: 2px 2px 4px rgba(119, 15, 52, 0.3);
+}
+
+form {
+
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px #8162621a;
+}
+
+.form-row {
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.form-row label {
+    margin: 0;
+    width: 48%;
+}
+
+.form-row input {
+    margin-top: 8px;
+    width: 100%;
+}
+
+label {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+input[type="date"] {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+button {
+    padding: 5px 30px;
+    font-size: 1.5rem;
+    color: #ffffff;
+    background-color: #c4104c;
+    border: none;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #550d1f;
+}
+
+.results {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+    gap: 20px;
+    width: 100%;
+    max-width: 1000px;
+    margin-top: 20px;
+}
+
+.phase,
+.next-cycle {
+    padding: 1.5rem;
+    border-radius: 30px;
+    background: #ffffff;
+    box-shadow: 0 8px 32px 0 rgba(215, 144, 166, 0.37);
+    border-radius: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.phase h3,
+.next-cycle h3 {
+    margin-top: 0;
+    color: #6c0535;
+    font-size: 2rem;
+}
+
+.phase p,
+.next-cycle p {
+    margin: 5px 0;
+    font-size: 25px;
+    color: #8a093a;
+}
+
+.phase ul {
+    padding-left: 20px;
+}
+
+.phase ul li {
+    list-style: disc;
+    font-size: 1.5rem;
+    color: #a60948;
+    font-family: 'Nunito';
+    font-weight: 300;
+}
+
+
+.next-cycle {
+    text-align: center;
+}
+
+span {
+    color: #e92e82;
+}
+
+@media (max-width: 768px) {
+    .results {
+        grid-template-columns: 1fr;
+    }
+
+    form {
+        width: 80%;
+    }
+}
